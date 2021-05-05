@@ -1,0 +1,84 @@
+/* 
+
+Black Box - CSS File - CSS File
+
+USE THIS STYLE SHEET FOR SLIDER HOME PAGE
+
+*/
+
+#slideflash{height:378px; margin:0 auto; width:918px; border:solid 1px #fff}
+#slideshowHolder{ z-index:100 !important}
+.ft-title{width:898px; padding:10px; position:relative}
+* html .ft-title{padding:10px; bottom:-1px !important; position:relative}/* ie 6 only */
+
+
+/*** FRONT PAGE SLIDER ALT2***/
+
+/* Easy Slider */
+#slides_container{height:400px; position:absolute; width:940px;  background-image:url(../web/20131222085009im_/http_06E2266F); background-repeat:no-repeat; z-index:20; top:170px;}
+
+#slider{ position:relative;  margin:0px auto; width:918px; margin:0px 1px;  height:378px; overflow:hidden;}
+	
+#slider ul, #slider li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+#slider li{ 
+	/* 
+		define width and height of list item (slide)
+		entire slider area will adjust according to the parameters provided here
+	*/ 
+	width:918px;
+	height:380px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px 0px 0px 0px;
+	
+}
+
+
+#prevBtn, #nextBtn{ 
+	display:block;
+	width:38px;
+	height:70px;
+	position:relative; 
+	
+	z-index:30;
+	
+}
+#prevBtn{left:10px; top:-235px;}	
+#nextBtn{left:898px; top:-305px;}														
+#prevBtn a, #nextBtn a{  
+	display:block;
+	width:38px;
+	height:70px;
+	background:url(../web/20131222085009im_/http_7B94B366) no-repeat 0 0;
+	cursor:pointer;
+	
+	}
+#nextBtn a{ 
+	background:url(../web/20131222085009im_/http_17DB7942) no-repeat 0 0;	
+	}
+/*** END OF FRONT PAGE SLIDER ***/
+/*
+     FILE ARCHIVED ON 08:50:09 Dec 22, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:57:26 Jun 27, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 700.554 (3)
+  esindex: 0.015
+  captures_list: 731.268
+  CDXLines.iter: 19.355 (3)
+  PetaboxLoader3.datanode: 741.149 (4)
+  exclusion.robots: 0.249
+  exclusion.robots.policy: 0.232
+  RedisCDXSource: 3.44
+  PetaboxLoader3.resolve: 1184.962
+  load_resource: 1249.527
+*/
