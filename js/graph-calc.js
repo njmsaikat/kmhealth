@@ -122,7 +122,6 @@ function sparkline(captures, width, height, canvas_id, start_year,
         }
     }
 }
-
 function clear_canvas(canvas_id) {
     var c = document.getElementById(canvas_id);
     if (!c || !c.getContext) return;
@@ -130,3 +129,4 @@ function clear_canvas(canvas_id) {
     if (!ctx) return;
     ctx.clearRect(0, 0, c.width, c.height);
 }
+
