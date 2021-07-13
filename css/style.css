@@ -958,6 +958,21 @@ playback timings (ms):
     width: 100% !important;
 }
 
+
+/*testimonial page*/
+.head-img {
+    display: flex;
+}
+.savi-logo{
+	padding-left: 20px;
+}
+
+.savi-logo img {
+    max-width: 180px;
+}
+
+
+
 /*responsive*/
 
 @media (max-width: 991px) {
@@ -1051,6 +1066,16 @@ playback timings (ms):
 	.press-table tbody td {
 		width: 100%;
 		display: block;
+	}
+
+	/*testimonial page*/
+	.head-img {
+		display: block;
+	}
+
+	.savi-logo {
+		padding-left: 0px;
+		padding-bottom: 20px;
 	}
 
 }
