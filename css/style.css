@@ -315,7 +315,7 @@ blockquote.left, blockquote.right  {
 
 	padding:5px 0 0 20px;
 
-	width:53%;
+	width:50%;
 
 	}
 
@@ -325,7 +325,17 @@ blockquote.left{
 
 	margin-left:0px;
 
-	margin-right:20px;}
+	margin-right:20px;
+
+	margin-bottom: 0px;
+
+	padding: 5px 0 0 0px !important;
+
+}
+
+blockquote.full-row {
+    padding: 5px 0;
+}
 
 	
 
@@ -1000,6 +1010,27 @@ playback timings (ms):
 		height: 152px;
 	}
 
+	blockquote.left, blockquote.right {
+		width: 52%;
+	}
+
+}
+
+@media (max-width: 800px){
+
+	.testi-page {
+		padding-right: 10px !important;
+		padding-left: 10px !important;
+	}
+	blockquote.left, blockquote.right {
+		width: 100%;
+	}
+
+	blockquote.left, blockquote.right {
+		width: 100%;
+		margin: 0;
+		padding: 5px 0;
+	}
 }
 
 @media (max-width: 767px) {
