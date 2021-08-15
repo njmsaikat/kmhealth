@@ -1022,6 +1022,10 @@ playback timings (ms):
 		padding-right: 10px !important;
 		padding-left: 10px !important;
 	}
+
+	.centercolumn {
+    width: 740px;
+}
 	blockquote.left, blockquote.right {
 		width: 100%;
 	}
